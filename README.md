@@ -116,7 +116,5 @@ The program handles several key memory management operations:
 
 The example session above demonstrates external fragmentation:
 1. After releasing Process P2, there are two separate unused memory blocks
-2. Even though the total free memory is enough for Process P4 (348,576 bytes), no single contiguous block is large enough
+2. Even though the total free memory is enough for Process P4 (400000 bytes), no single contiguous block is large enough
 3. After compaction, the free memory is consolidated, allowing Process P4 to be allocated
-
-This illustrates how memory compaction resolves external fragmentation issues in contiguous memory allocation systems.
